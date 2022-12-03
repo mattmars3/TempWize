@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 :root {
     --lightBlue: rgb(0, 153, 204);
     --lightGrey: rgb(230, 230, 230);
+    --lightGreen: rgb(51, 204, 51);
 }
 
 body {
@@ -17,17 +20,21 @@ body {
     height: 100vh;
 }
 
-
 .contentBox {
     border: 3px solid black;
     box-shadow: 3px 3px 2px black;
     margin: 1%;
     padding: 2%;
     margin-bottom: 4%;
+
 }
 
 .contentBox h2 {
     font-size: 3vh;
+}
+
+.contentBox p {
+    font-family: 'Lato';
 }
 
 #rightBox {
@@ -39,3 +46,14 @@ body {
     border-right: 4px black dashed;
 }
 
+#purchaseButton {
+    font-size: 5vh;
+    text-align: center;
+    padding: 3%;
+
+    transition: .5s;
+}
+
+#purchaseButton:hover {
+    background-color: var(--lightGreen);
+}
