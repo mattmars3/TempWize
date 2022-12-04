@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
-    --lightBlue: rgb(0, 153, 204);
+    --lightBlue: rgb(67, 102, 127);
+    --navyBlue: rgb(25, 57, 115);
     --lightGrey: rgb(230, 230, 230);
     --lightGreen: rgb(51, 204, 51);
+    --white: rgb(243, 243, 243);
 }
+
+#headerDiv {
+    align-items: center;
+    text-align: center;
+}
+
+#headerDiv img {
+    width: 60vh;
+}
+
+
+#solutionPicture {
+    align-items: center;
+    text-align: center;
+}
+
+#solutionPicture img {
+    width: 80vh;
+}
+
 
 body {
     display: flex;
@@ -24,25 +46,31 @@ body {
     border: 3px solid black;
     box-shadow: 3px 3px 2px black;
     margin: 1%;
-    padding: 2%;
+    padding: 1%;
     margin-bottom: 4%;
-
+    background-color: var(--lightGrey);
 }
 
 .contentBox h2 {
-    font-size: 3vh;
+    font-size: 4vh;
+    padding: 1% 0 0 1%;
+    margin: 0;
 }
 
 .contentBox p {
+    padding-left: 1%;
     font-family: 'Lato';
+    font-size: 2vh;
+    line-height: 130%;
 }
 
 #rightBox {
     background-color: var(--lightBlue);
+    background-image: linear-gradient(45deg, var(--lightBlue), var(--navyBlue));
 }
 
 #leftBox {
-    background-color: var(--lightGrey);
+    background-image: linear-gradient(45deg, white, var(--lightGrey));
     border-right: 4px black dashed;
 }
 
