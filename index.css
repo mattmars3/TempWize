@@ -33,6 +33,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: stretch;
+    overflow: hidden;
 }
 
 .sideBox {
@@ -58,10 +59,11 @@ body {
 }
 
 .contentBox p {
+    margin: 0 0 1% 0;
     padding-left: 1%;
     font-family: 'Lato';
-    font-size: 2vh;
-    line-height: 130%;
+    font-size: 2.5vh;
+    line-height: 150%;
 }
 
 #rightBox {
@@ -84,4 +86,13 @@ body {
 
 #purchaseButton:hover {
     background-color: var(--lightGreen);
+}
+
+#signature {
+    position: absolute;
+    right: 1%;
+    bottom: -2%;
+    font-size: 2vh;
+    font-family: 'Lato';
+    color: white;
 }
