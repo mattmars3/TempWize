@@ -71,11 +71,11 @@ body {
 
 #rightBox {
     background-color: var(--lightBlue);
-    background-image: linear-gradient(45deg, var(--lightBlue), var(--navyBlue));
+    background-image: linear-gradient(var(--lightBlue), var(--navyBlue));
 }
 
 #leftBox {
-    background-image: linear-gradient(45deg, rgb(217, 232, 233), var(--lightGrey));
+    background-image: linear-gradient(90deg, rgb(217, 232, 233), var(--lightGrey));
     border-right: 4px black dashed;
 }
 
@@ -99,4 +99,8 @@ body {
     font-size: 2vh;
     font-family: 'Lato';
     color: white;
+}
+
+#reviews p {
+    line-height: 120%;
 }
