@@ -94,11 +94,14 @@ body {
 
 #signature {
     position: absolute;
-    right: 1%;
-    bottom: -2%;
-    font-size: 2vh;
+    right: 0;
+    bottom: 0;
+    font-size: 1.5vh;
     font-family: 'Lato';
-    color: white;
+    color: black;
+    backdrop-filter: sepia(50%);
+    padding-left: 1%;
+    padding-right: .5%;
 }
 
 #reviews p {
